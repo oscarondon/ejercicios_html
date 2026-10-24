@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía para aprendices: bases de datos SQL</title>
+</head>
+<body>
+  <p><a href="index_extra.html">← Volver al índice</a></p>
+
+  <h1>Guía para aprendices nuevos: bases de datos SQL</h1>
+  <p>Esta guía te explica, paso a paso y sin términos complicados, qué es una base de datos SQL y cómo hacer tu primera consulta.</p>
+
+  <h2>¿Qué es una base de datos SQL?</h2>
+  <p>Una base de datos es un lugar donde se guarda información organizada, como la lista de aprendices de una ficha. En una base de datos <strong>relacional</strong>, los datos se guardan en tablas formadas por filas y columnas.</p>
+  <p>El lenguaje que se usa para pedirle cosas a la base de datos se llama SQL, sigla de <em>Structured Query Language</em> (lenguaje de consulta estructurado).</p>
+
+  <img src="tablaSql.jpeg" alt="Tabla llamada aprendices con las columnas id, nombre y programa, y tres filas de ejemplo" width="520">
+
+  <h2>Comandos básicos</h2>
+  <p>Estos comandos no tienen un orden fijo; úsalos según lo que necesites hacer:</p>
+  <ul>
+    <li><strong>SELECT</strong>: consultar datos de una tabla.</li>
+    <li><strong>INSERT</strong>: agregar una fila nueva.</li>
+    <li><strong>UPDATE</strong>: modificar datos que ya existen.</li>
+    <li><strong>DELETE</strong>: borrar filas.</li>
+  </ul>
+
+  <h2>Tu primera consulta, paso a paso</h2>
+  <p>Aquí el orden sí importa, así que sigue los pasos en secuencia:</p>
+  <ol>
+    <li>Abre tu programa de base de datos (por ejemplo, MySQL Workbench o SQLite).</li>
+    <li>Elige la base de datos con la que vas a trabajar.</li>
+    <li>Escribe la consulta: <code>SELECT * FROM aprendices;</code></li>
+    <li>Ejecuta la consulta y revisa la tabla de resultados.</li>
+  </ol>
+  <p>Recuerda terminar cada instrucción con punto y coma (;).</p>
+
+  <h2>Para seguir practicando</h2>
+  <p>Puedes practicar con ejercicios gratuitos en este tutorial: <a href="https://www.w3schools.com/sql/" target="_blank" rel="noopener">Tutorial de SQL en W3Schools</a> (se abre en otra pestaña).</p>
+
+  <p><a href="index.html">← Volver al índice</a></p>
+
+  <!-- Decisión de etiquetas: usé <ul> para los comandos porque no tienen orden, y <ol> para la primera consulta porque los pasos deben seguirse en secuencia. -->
+  <!-- Atributo utilizado: alt en la imagen, para describir la tabla a quien no pueda verla; también target="_blank" con rel="noopener" para abrir el recurso externo en otra pestaña de forma segura. -->
+  <!-- Mejora después de probar la página: agregué un segundo enlace "Volver al índice" al final de la página, porque quien llegaba al final tenía que subir hasta arriba para regresar. -->
+</body>
+</html>
